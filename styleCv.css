@@ -1,0 +1,333 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+}
+
+.nav-open ul {
+    display: block; 
+}
+
+.hero{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: #eff4fd;
+} 
+
+nav{
+	position: fixed;
+	top: 0;
+	height: 3%;
+	width: 100%;
+	background-color: #eff4fd;
+	z-index: 1;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	
+}
+
+section nav h1{
+	margin-right: 10%;
+	margin-left: 0;
+	overflow: hidden;
+	top: 5;
+}
+
+nav ul{
+	overflow: hidden;
+	top: 5;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+nav ul li a:hover{
+	color: pink;
+}
+
+.detel{
+	margin-left: 8%;
+	padding: 250px 0;
+}
+
+.detel h1{
+	font-size: 50px;
+	color: #212121;
+}
+
+span{
+	color: pink;
+}
+
+.detel p{
+	color: #555;
+	line-height: 22px;
+	font-size: 25px;
+}
+
+.images{
+	width: 45%;
+	height: 80%;
+	position: absolute;
+	bottom: 0;
+	right: 100px;
+}
+
+.images img{
+	height: 100%;
+	position:absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	transition: bottom 1s, left 1s;
+}
+
+.images .style{
+	margin-bottom: -7%;
+	margin-left: 10%;
+}
+
+.images:hover .style{
+	bottom: 40px;
+}
+
+.images:hover .Girl{
+	left: 45%;
+}
+
+.AboutMe{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	margin-bottom: 0;
+	background: url("Style2.png");
+	background-position: center;
+	background-size: 1500px 1000px;
+}
+
+.AboutMe h1{
+	font-size: 50px;
+	color: #212121;
+	padding: 55px 100px;
+}
+
+.AboutMe img{
+	border-radius: 10px;
+	margin-left: 10%;
+	padding-bottom: 50px;
+}
+
+.AboutMe .styleme{
+	margin-left: 50%;
+	margin-top: -29%;
+	position: relative;
+	max-width: 500px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(94, 93, 93, 0.8);
+	text-align: justify;
+	border-left: 30px;
+}
+
+.AboutMe .me{
+	font-size: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.skill{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: white;
+	margin-bottom: 0;
+}
+
+.skill h1{
+	font-size: 50px;
+	color: #212121;
+	padding: 250px 100px;
+}
+
+.skill .styleskill{
+	margin-top: -25%;
+	margin-left: 50%;
+	position: relative;
+	max-width: 500px;
+	background-color: lightpink;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(94, 93, 93, 0.8);
+	text-align: justify;
+	border-left: 30px;
+}
+
+.skill .listskill{
+	font-size: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.experience{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	margin-bottom: 0;
+	background: url("Style3.png");
+	background-position: center;
+	background-size: 500px 500px;
+}
+
+.experience h1{
+	font-size: 50px;
+	color: #212121;
+	padding: 250px 100px;
+}
+
+.experience .styleexperience{
+	margin-top: -38%;
+	margin-left: 50%;
+	padding-bottom: 200%
+	position: relative;
+	max-width: 500px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(94, 93, 93, 0.8);
+	text-align: justify;
+	border-left: 30px;
+}
+
+.experience .listexperience{
+	font-size: 13px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 20px;
+	padding-bottom: 8px;
+}
+
+.education{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: white;
+	margin-bottom: 0;
+}
+
+.education h1{
+	font-size: 50px;
+	color: #212121;
+	padding: 250px 100px;
+}
+
+.education .styleeducation{
+	margin-top: -30%;
+	margin-left: 50%;
+	position: relative;
+	max-width: 500px;
+	background-color: lightpink;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(94, 93, 93, 0.8);
+	text-align: justify;
+	border-left: 30px;
+}
+
+.education .listeducation{
+	font-size: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.education .listeducation tr th {
+	text-align: center;
+}
+
+.contact{
+	position: relative;
+	width: 100%;
+	height: 97vh;
+	margin-bottom: 0;
+	background: url("Style2.png");
+	background-position: center;
+	background-size: 1500px 1000px;
+}
+
+.contact h1{
+	font-size: 50px;
+	color: #212121;
+	padding: 250px 100px;
+}
+
+.contact .stylecontact{
+	margin-top: -28%;
+	margin-left: 50%;
+	position: relative;
+	max-width: 500px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(94, 93, 93, 0.8);
+	text-align: justify;
+	border-left: 30px;
+}
+
+.contact .listcontact{
+	font-size: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+dl dd a{
+	text-decoration: none;
+	color: #000;
+	font-family: calibri;
+	font-size: 30px;
+}
+
+dl dd a:hover{
+	color: pink;
+	font-weight: bold;
+}
+
+.contact .logoimages{
+	margin-left: 65%;
+	margin-top: 2%;
+}
+
+.contact .footer{
+    clear: both;
+    width: 96.8%;
+    height: 24px;
+    background: #1EAFED;
+    color: #fff;
+    text-align: center;
+	margin-top: 110px;
+	padding: 20px;
+	margin-bottom: 100%;
+}
+
+.contact .footer h3{
+    font-size: 16px;
+    font-weight: 500px;
+    text-transform: capitalize;
+	margin-bottom: 0%;
+}
